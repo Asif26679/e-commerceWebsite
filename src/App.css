@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'HighwayGothic';
+    src: url('/fonts/HighwayGothic.TTF') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -4,13 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  theme:{
-    extend:{
-      fontFamily:{
-        highway:['HighwayGothic','sans-serif']
-      },
-    },
-  },
+ 
   plugins: [react(),tailwindcss()],
 
 })

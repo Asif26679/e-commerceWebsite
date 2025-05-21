@@ -1,30 +1,29 @@
 import ProductsCard from "./ProductCards.jsx"
-import z200 from '../assets/z200.jpg'
-import product3 from '../assets/product3.jpg'
+import newheadphone from '../assets/newheadphone.png'
 const products=[
     {
         id:'1',
         name:"Z-100 Wireless",
         price:20000,
-        image:z200
+        image:newheadphone
     },
     {
         id:'2',
         name:"Z-100 Wireless",
         price:1000,
-        image:product3
+        image:newheadphone
     },
     {
         id:'3',
         name:"Z-100 Wireless",
         price:5999,
-        image:z200
+        image:newheadphone
     },
     {
         id:'4',
         name:"Z-100 Wireless",
         price:4999,
-        image:z200
+        image:newheadphone
     }
 ]
 

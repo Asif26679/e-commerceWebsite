@@ -22,7 +22,7 @@ function HeroSection(){
           <div className="relative z-10 flex items-center justify-center min-h-screen px-6">
             <div className="text-center text-white max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight  drop-shadow-lg">Discover Your Style...</h1>
-         <p className="mt-4 text-white text-lg">Customize your product with your comfort</p>
+         <p className="mt-4 text-white text-lg font-metropolis">Customize your product with your comfort</p>
          <p>World's best earphone company</p>   
           <Link
               to="/products"

@@ -32,7 +32,7 @@ function ProductSection(){
     return(
         <>
 <section className="py-12 px-6 bg-[#037e7e] rounded-3xl mt-1 " data-aos="fade-up">
-<h2 className="text-3xl font-bold text-center mb-8">
+<h2 className="text-3xl font-bold text-center mb-8 font-lequire text-white">
     Top Selling Products
 </h2>
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">

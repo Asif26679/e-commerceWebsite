@@ -8,6 +8,8 @@ import Navbar from './components/Navbar'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import CustomerCare from './pages/CustomerCare'
+import Login from './pages/Login'
+
 
 
 function App() {
@@ -18,13 +20,16 @@ function App() {
 
   return (
     <>
+    <h1>Hello</h1>
     <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
          <Route path='/products' element={<Products/>}></Route>
         <Route path='/cart' element={<Cart/>}></Route>
         <Route path='/help' element={<CustomerCare/>} ></Route>
-      </Routes>
+        <Route path='/login' element={<Login />}></Route>
+        
+              </Routes>
     </>
   )
 }

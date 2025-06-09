@@ -7,7 +7,7 @@ const Footer = () => {
         
         {/* Logo / About */}
         <div>
-          <h2 className="text-xl font-bold text-white mb-2">ShopMate</h2>
+          <h2 className="text-xl font-bold text-white mb-2">ClearSound</h2>
           <p className="text-sm">Your trusted destination for modern shopping experience. Discover your style, anywhere, anytime.</p>
         </div>
 
@@ -25,15 +25,15 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold text-white mb-2">Contact</h3>
           <ul className="text-sm space-y-1">
-            <li>Email: support@shopmate.com</li>
-            <li>Phone: +91 9876543210</li>
+            <li>Email: support@ClearSound.com</li>
+            <li>Phone: +91 8884455</li>
             <li>Location: India</li>
           </ul>
         </div>
 
         {/* Newsletter */}
         <div>
-          <h3 className="text-lg font-semibold text-white mb-2">Newsletter</h3>
+          <h3 className="text-lg font-semibold text-white mb-2">ClearSound</h3>
           <p className="text-sm mb-2">Subscribe to get latest updates.</p>
           <form className="flex">
             <input
@@ -52,7 +52,7 @@ const Footer = () => {
       </div>
 
       <div className="text-center text-sm text-gray-500 mt-10">
-        © {new Date().getFullYear()} ShopMate. All rights reserved.
+        © {new Date().getFullYear()} ClearSound. All rights reserved.
       </div>
     </footer>
   );

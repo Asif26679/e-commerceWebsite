@@ -9,7 +9,7 @@ const stats = [
 
 const Stats = () => {
   return (
-    <section className="py-16 bg-gray-900 text-white rounded-3xl mt-1" id="stats" data-aos="fade-up">
+    <section className="py-16 bg-gray-900 text-white rounded-3xl mt-1 font-lequire" id="stats" data-aos="fade-up">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((stat, index) => (

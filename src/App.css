@@ -1,7 +1,18 @@
+@font-face {
+    font-family:Audiowide ;
+    src: url("../src/assets/fonts/Audiowide-Regular.ttf");
+}
+@font-face {
+    font-family:Lequire ;
+    src: url("../src/assets/fonts/Lequire.otf");
+}
 @import "tailwindcss";
 
-
-
-
+@theme{
+    --font-audiowide:Audiowide,"sans-serif"
+}
+@theme{
+    --font-lequire:Lequire,"sans-serif"
+}
 
   

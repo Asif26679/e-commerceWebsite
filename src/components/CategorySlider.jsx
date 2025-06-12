@@ -54,7 +54,7 @@ const CategorySection = () => {
         {categories.map((cat, index) => (
           <div
             key={index}
-            className="min-w-[340px] flex-shrink-0  rounded shadow  hover:shadow-lg transition"
+            className="min-w-[80%] sm:min-w-[300px] md:min-w-[340px]  flex-shrink-0  rounded shadow  hover:shadow-lg transition"
           >
             <div className="overflow-hidden rounded-t">
               <img

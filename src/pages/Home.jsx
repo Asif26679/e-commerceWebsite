@@ -1,3 +1,4 @@
+import CategorySlider from "../components/CategorySlider";
 import Feature from "../components/Feature";
 import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
@@ -7,6 +8,7 @@ function Home(){
     return(
         <>
         <HeroSection></HeroSection>
+        <CategorySlider></CategorySlider>
         <Feature></Feature>
         <ProductSection></ProductSection>
         <Testmonials></Testmonials>

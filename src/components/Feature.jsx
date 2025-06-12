@@ -1,4 +1,5 @@
 import nextt from '../assets/nextt.png'
+import { Link } from 'react-router-dom'
 function Feature(){
     return(
         <>
@@ -8,9 +9,13 @@ function Feature(){
         <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 font-lequire">
         Best technolgy with air filetrs
         </h2>
-       <p className="text-white text-lg">
-       Clear sound 
-       </p>
+       <h3 className="text-white  text-center text-3xl">
+       up to 30% off
+       </h3>
+       <Link
+              to="/products"
+              className="inline-block mt-6 bg-green-700 text-white px-6 py-3 rounded-2xl text-lg hover:bg-green-800 transition duration-200 font-lequire md:ml-45"          
+              >Buy Now</Link>
        </div>
        <div className="md:w-1/2">
         <img src={nextt} alt="" />
